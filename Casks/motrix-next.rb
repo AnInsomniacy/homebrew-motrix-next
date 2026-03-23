@@ -5,8 +5,7 @@ cask "motrix-next" do
   sha256 arm:   "6e1917fcd2e54ddc1a4e5bde28f284c70fed494d8c0f43af6a07b0e1cce3e097",
          intel: "e8fc35bce5aff87f09d45ac73c6e4f2244894793d69569d65dd036c19374c304"
 
-  url "https://github.com/AnInsomniacy/motrix-next/releases/download/v#{version}/MotrixNext_#{arch}.app.tar.gz",
-      verified: "github.com/AnInsomniacy/motrix-next/"
+  url "https://github.com/AnInsomniacy/motrix-next/releases/download/v#{version}/MotrixNext_#{arch}.app.tar.gz"
   name "Motrix Next"
   desc "Full-featured download manager built with Tauri"
   homepage "https://github.com/AnInsomniacy/motrix-next"
