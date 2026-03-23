@@ -6,10 +6,11 @@ Official [Homebrew](https://brew.sh) tap for [Motrix Next](https://github.com/An
 
 ```bash
 brew tap AnInsomniacy/motrix-next
-brew install --cask --no-quarantine motrix-next
+brew install --cask motrix-next
+xattr -cr "$(brew --caskroom)/motrix-next"  # remove quarantine (app is unsigned)
 ```
 
-> **Note:** The `--no-quarantine` flag is recommended because the app is not code-signed. Without it, macOS Gatekeeper may display a "damaged" warning.
+> **Note:** The app is not code-signed. The `xattr` command removes the quarantine flag that macOS Gatekeeper applies to unsigned apps.
 
 ## Upgrade
 
