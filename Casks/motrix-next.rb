@@ -1,5 +1,5 @@
 cask "motrix-next" do
-  arch arm: "aarch64", intel: "c2504e129e2b7bf6fa7feb212455530a8aeee2674f60c0ae4df4caca07251652"
+  arch arm: "aarch64", intel: "x64"
 
   version "3.4.9"
   sha256 arm:   "4c971a75193d1258a9e745a14c3366227da1b50486cd96a606bd86b421afc06f",
