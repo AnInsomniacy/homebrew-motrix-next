@@ -1,9 +1,9 @@
 cask "motrix-next" do
   arch arm: "aarch64", intel: "x64"
 
-  version "3.7.1"
-  sha256 arm:   "f81ea7c20d0730fc26678a01a8c2aceb04316ccf66dde9630075456f951b9eca",
-         intel: "16ed8aff1420a28dd3ffb1e2d428f18182d3f918adcf3886e98cba6f41bea1f1"
+  version "3.7.2"
+  sha256 arm:   "c45b3bcad970dde08cdfeae4a66fd688acaf8904e24cb355ecff28f95209d5a1",
+         intel: "08cc84449f07cf7cfcaadad984fc7900f720c2416c54f08d22568620b871c5e7"
 
   url "https://github.com/AnInsomniacy/motrix-next/releases/download/v#{version}/MotrixNext_#{arch}.app.tar.gz"
   name "Motrix Next"
